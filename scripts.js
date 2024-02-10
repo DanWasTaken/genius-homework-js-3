@@ -12,9 +12,7 @@
   
 //   let fruitNames = [];
   
-//   for (fruit in fruits) {
-//     fruitNames.push(fruits[fruit].name);
-//   }
+//   for (let fruit of fruits) { fruitNames.push(fruit.name); }
   
 //   console.log(fruitNames);
 // }
@@ -84,7 +82,7 @@
   
 //   let averageAge = 0;
 
-//   for (girl in girls) { averageAge += girls[girl].age; }
+//   for (let girl of girls) { averageAge += girl.age; }
 //   averageAge = averageAge / girls.length;
 //   console.log(`Середній вік: ${averageAge}`);
 // }
