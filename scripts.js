@@ -27,9 +27,7 @@
 
 // const ex2 = () => {
 //   for (let i = 2; i <= 10; i++) {
-//     if (i % 2 === 0) {
-//       console.log(i);
-//     }
+//     if (i % 2 === 0) { console.log(i); }
 //   }
 // }
 
@@ -38,9 +36,7 @@
 
 // 3 Завдання
 // Замініть кикл "for" на "while"
-// for (let i = 0; i < 5; i++) {
-//   console.log(`цифра ${i}!`);
-// }
+// for (let i = 0; i < 5; i++) { console.log(`цифра ${i}!`); }
 
 // const ex3 = () => {
 //   let i = 0;
@@ -67,8 +63,8 @@
 //     if (userInput) {
 //       userInput = parseInt(userInput);
       
-//       if (userInput > 100) { break };
-//     } else { break; };
+//       if (userInput > 100) { break }
+//     } else { break; }
 //   }
 // }
 
@@ -87,13 +83,9 @@
 //   ];
   
 //   let averageAge = 0;
-  
-//   for (girl in girls) {
-//     averageAge += girls[girl].age;
-//   }
-  
+
+//   for (girl in girls) { averageAge += girls[girl].age; }
 //   averageAge = averageAge / girls.length;
-  
 //   console.log(`Середній вік: ${averageAge}`);
 // }
 
